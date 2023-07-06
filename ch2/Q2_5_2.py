@@ -1,10 +1,10 @@
-w = "○"
+a = "○"
 b = "●"
 answer = ""
 for i in range(4):
     for j in range(4):
         if i == j:
-            answer += w
+            answer += a
         else:
             answer += b
     answer += "\n"
