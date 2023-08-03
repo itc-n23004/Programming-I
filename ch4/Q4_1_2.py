@@ -1,11 +1,11 @@
 def fib2(n):
-    x = []
+    result = []
     a, b = 0, 1
     while a < n:
-        x.append(a)
-        a = b
-        b = a + b
-    return x
+        result.append(a)
+        a, b = b, a + b
+    return result
 
 
-fib2(100)
+t = fib2(100)
+print(t)
